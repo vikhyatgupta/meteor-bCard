@@ -1,0 +1,53 @@
+body {
+
+  /* Box-model */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  /* Typography */
+  font-family: 'Source Sans Pro', sans-serif;
+
+  /* Visual */
+  background-color: #ecf0f1;
+}
+
+.bCard {
+
+  /* Box-model */
+  padding: 20px;
+  max-width: 50vw;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background-color: white;
+  box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
+
+.quote {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.avatar {
+
+  /* http://goo.gl/yikvJk */
+  width: 50%;
+  max-width: 150px;
+
+  border: 5px solid rgba(0,0,0,0.1);
+  border-radius: 50%;
+}
+
+.icon-link:link,
+.icon-link:visited {
+  color: #ecf0f1;
+}
+
+.icon-link:hover {
+  color: #2980b9;
+}
